@@ -10,9 +10,6 @@ import { createProduct as CreateProduct } from './graphql/mutations'
 import { listProducts as ListProducts } from './graphql/queries'
 import config from './aws-exports'
 
-import Amplify from 'aws-amplify'
-Amplify.configure(config)
-
 type Product = {
   name: string,
   image: string
@@ -24,12 +21,14 @@ const {
 } = config
 
 function App() {
+  
   const [file, updateFile] = useState<File | null>(null)
   const [productName, updateProductName] = useState('')
   const [products, updateProducts] = useState([])
   
   useEffect(() => {
     listProducts()
+    console.log(bucket, region)
   }, [])
 
 // Query the API and save them to the state
