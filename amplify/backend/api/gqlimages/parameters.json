@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "gqlimages",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authgqlimages1305e8e3",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

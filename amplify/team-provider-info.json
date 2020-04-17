@@ -10,6 +10,11 @@
             "StackName": "amplify-gqlimages-gqldev-114927",
             "StackId": "arn:aws:cloudformation:us-west-2:603100379809:stack/amplify-gqlimages-gqldev-114927/7212fe70-805e-11ea-829c-02722f0e300c",
             "AmplifyAppId": "d2lrq1dxqozhy3"
+        },
+        "categories": {
+            "auth": {
+                "gqlimages1305e8e3": {}
+            }
         }
     }
 }

@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
+    "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.0",
     "aws-amplify": "^3.0.8",
     "aws-amplify-react": "^4.1.7",
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^7.0.2"
   }
 }
